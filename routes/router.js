@@ -1,24 +1,14 @@
 const express = require('express');
 const router = express.Router();
+//importar las funciones de el archivo controllers
+const {get,delet,put,post} = require("../controllers/controllers")
 
-const res = require('express/lib/response');
+//rutas del servidor
+router.get('/',get);
+router.post('/post',post);
+router.put('/put',put);
+router.delete('/delete',delet)
 
-router.get('/', (req,res)=>{
-    res.send('Get');
-})
-router.post('/post',(req,res)=>{
-    res.send('POST');
-})
-router.put('/put',(req,res)=>{
-    res.send('PUT');
-})
-router.delete('/delete',(req,res)=>{
-    res.send('delete');
-})
-router.get('/');
-router.post('/post');
-router.put('/put');
-router.delete('/delete')
-
-module.exports = router
+//exportar rutas
+module.exports = router;
 

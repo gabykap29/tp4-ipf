@@ -1,12 +1,12 @@
 {
   "name": "tp4-gabriel-acosta",
   "version": "1.0.0",
-  "description": "Este es una trabajo practico de la materia Taller de Lenguaje de Programación, del IPF",
+  "description": "Este es una trabajo practico de la materia Taller de Lenguaje de Programación 1, del IPF",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Acosta Gabriel",
+  "author": "Acosta Gabriel Hernan Miguel",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
